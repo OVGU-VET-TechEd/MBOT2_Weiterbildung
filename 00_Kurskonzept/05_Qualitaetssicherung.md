@@ -113,7 +113,7 @@ Die Progression folgt der Reihe: In Sitzung 1 werden Grundbegriffe gesichert (me
 | Fundstellen in den Fachlehrplänen Sachsen-Anhalt für den Beispiel-Tagesplan eintragen | Fortbildungsleitung / Teilnehmende (Selbstlernmodul 2) | offen |
 | Klärung mit dem LISA, Fachbereich 4 (E-Mail-Entwurf `08_LISA_Anerkennung/05_Anfrage_LISA.md`); Termine, Ort, Kosten in Ausschreibung, Kursprogramm und Einladung ergänzen | Veranstalter | offen |
 | SCORM-Pakete einmal im Bildungsportal hochladen und mit einem Testkonto durchlaufen (Speichern des Bearbeitungsstands, Abschlussverfolgung) | Fortbildungsleitung | offen |
-| Zuordnung zur Fakultät für Humanwissenschaften im Logo bestätigen | Kursverantwortung | offen |
+| Zuordnung zur Fakultät für Humanwissenschaften im Logo bestätigen | Kursverantwortung | erledigt (bestätigt am 04.10.2026) |
 | Pilotdurchführung mit einer Gruppe von mindestens 8 Lehrkräften; Zeiten, Lernpfade und Mini-Teach anhand der Evaluation nachjustieren | Fortbildungsleitung | offen |
 | Link [roberta-home.de](https://www.roberta-home.de): Bei der automatischen Prüfung am 04.10.2026 schlug die Zertifikatsprüfung fehl. Vor Veröffentlichung im Browser prüfen. | Fortbildungsleitung | offen |
 | Sollen die studentischen Autorinnen und Autoren der Ausgangsmaterialien namentlich genannt werden? | Kursverantwortung | offen |

@@ -109,7 +109,7 @@ Jedes Lernziel ist einem Kompetenzbereich und einem Anforderungsbereich zugeordn
 
 | Nr. | Die Teilnehmenden können … | K | AFB |
 |---|---|---|---|
-| LZ 3.1 | aus einer eigenen Erprobung ein überprüfbares fachliches Lernziel für Klasse 7 ableiten. | K3 | III |
+| LZ 3.1 | aus einer eigenen Erprobung ein überprüfbares fachliches Lernziel für eine Jahrgangsstufe der Sekundarstufe ableiten. | K3 | III |
 | LZ 3.2 | den fachlichen Mehrwert des mBot2 für dieses Lernziel begründen. | K3 | III |
 | LZ 3.3 | einen Tagesplan mit Ablauf, Differenzierung (Lernhürde und Hilfe, Vertiefung) und Lernnachweis entwerfen. | K3, K4 | III |
 | LZ 3.4 | Übergaben zwischen Projekttagen abstimmen sowie kriteriengeleitet Feedback geben und annehmen. | K3, K5 | II–III |
@@ -117,9 +117,9 @@ Jedes Lernziel ist einem Kompetenzbereich und einem Anforderungsbereich zugeordn
 
 ---
 
-## 4 Ebene 2: Kompetenzen der Schülerinnen und Schüler (Klasse 7)
+## 4 Ebene 2: Kompetenzen der Schülerinnen und Schüler (Sekundarstufe)
 
-Diese Kompetenzen stehen im Schülermaterial und in den Tagesplänen der Projektwoche. Die Lehrkräfte sollen sie in Sitzung 3 für ihr Fach konkretisieren.
+Diese Kompetenzen stehen im Schülermaterial und in den Tagesplänen der Projektwoche. Sie gelten für alle Jahrgangsstufen; der Anspruch steigt von Beschreiben (Kl. 5/6) über Begründen (Kl. 7–10) bis Modellieren und Bewerten (Sek II), siehe `07_Anpassung_Jahrgangsstufen.md`. Die Lehrkräfte konkretisieren sie in Sitzung 3 für ihr Fach und ihre Jahrgangsstufe.
 
 | Nr. | Die Schülerinnen und Schüler können … | KMK | GI-Standards |
 |---|---|---|---|

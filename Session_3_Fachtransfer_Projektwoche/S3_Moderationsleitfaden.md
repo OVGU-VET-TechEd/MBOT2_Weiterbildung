@@ -12,7 +12,7 @@ Die Teilnehmenden können …
 
 | Nr. | Lernziel | AFB |
 |---|---|---|
-| LZ 3.1 | aus einer eigenen Erprobung ein überprüfbares fachliches Lernziel für Klasse 7 ableiten. | III |
+| LZ 3.1 | aus einer eigenen Erprobung ein überprüfbares fachliches Lernziel für die gewählte Jahrgangsstufe ableiten. | III |
 | LZ 3.2 | den fachlichen Mehrwert des mBot2 für dieses Lernziel begründen. | III |
 | LZ 3.3 | einen Tagesplan mit Ablauf, Differenzierung und Lernnachweis entwerfen. | III |
 | LZ 3.4 | Übergaben zwischen Projekttagen abstimmen sowie kriteriengeleitet Feedback geben und annehmen. | II–III |
@@ -24,7 +24,7 @@ Die Teilnehmenden können …
 
 | Beobachtung in der Erprobung / Selbstreflexion | Änderung |
 |---|---|
-| Gruppen planten für unterschiedliche Klassenstufen; Ergebnisse kaum vergleichbar | **Klasse 7 als verbindliche Referenz-Lerngruppe**; Übertragung auf die eigene Lerngruppe im Praxisauftrag |
+| Gruppen planten für unterschiedliche Klassenstufen; Ergebnisse kaum vergleichbar | **Gemeinsame Referenz-Jahrgangsstufe**, die zu Beginn per Handzeichen festgelegt wird (Voreinstellung und ausgearbeitetes Beispiel: Klasse 7). Für andere Jahrgänge nutzen die Gruppen die Varianten in `00_Kurskonzept/07_Anpassung_Jahrgangsstufen.md`. Übertragung auf die eigene Lerngruppe im Praxisauftrag. |
 | Technikauftrag sah noch Zusammenbau vor, obwohl der mBot2 schon montiert war | Montag = Funktionsprüfung und systematische Fehlersuche (übernommen aus der überarbeiteten Fassung) |
 | Mathematikaufgabe war zu breit | fokussiert auf Fahrwege im Raster: Längen, Drehwinkel, begründete Wegwahl (übernommen) |
 | Kernauftrag und Erweiterung nicht klar getrennt | Jede Aufgabenkarte hat **Kernauftrag** (Pflicht, 20 Min.) und **Erweiterung** (optional) |
@@ -51,7 +51,7 @@ Die Teilnehmenden können …
 
 | Zeit | Phase | Inhalt und Handlung der Leitung | Sozialform / Medien | LZ |
 |---|---|---|---|---|
-| 0–10 | **Einstieg** | Rückblick in einem Satz: Was können Sie jetzt, was Sie vor Sitzung 1 nicht konnten? Wochenstruktur und Referenz Klasse 7 vorstellen (Folie 3–4). Gruppen finden sich, Rollen verteilen (Bedienung – Zeit und Beobachtung – Dokumentation). Aufgabenkarten ausgeben. | Plenum, Folien | – |
+| 0–10 | **Einstieg** | Rückblick in einem Satz: Was können Sie jetzt, was Sie vor Sitzung 1 nicht konnten? Wochenstruktur vorstellen (Folie 3–4). **Referenz-Jahrgangsstufe festlegen**: Ergebnis der Abfrage aus Selbstlernmodul 2 zeigen, per Handzeichen entscheiden (ohne klare Mehrheit: Klasse 7). Bei Klasse 5/6, 9/10 oder Sek II die Variantentabelle aus `07_Anpassung_Jahrgangsstufen.md` an die Gruppen ausgeben. Gruppen finden sich, Rollen verteilen (Bedienung – Zeit und Beobachtung – Dokumentation). Aufgabenkarten ausgeben. | Plenum, Folien | – |
 | 10–40 | **Erprobung** | Kernauftrag (20 Min.), dann Rollenwechsel und Erweiterung (10 Min.). Die Rolle „Zeit und Beobachtung“ notiert Dauer und Stolperstellen jedes Schritts. Leitung geht herum, beobachtet und stellt Impulsfragen (Abschnitt 6). | Fachgruppen, mBot2, Aufgabenkarte | 3.1 |
 | 40–60 | **Planung** | Gruppen übertragen ihre Erfahrungen in den Tagesplan (Arbeitsheft, Planungsvorlage). Pflichtfelder: Lernziel, Rolle des mBot2 und Mehrwert, Ablauf mit Zeiten, Lernhürde und Hilfe, Vertiefung, Lernnachweis, Übergabe. Leitung prüft nach 10 Min. bei jeder Gruppe das **Lernziel** (überprüfbar? fachlich?). | Fachgruppen, Planungsvorlage | 3.1–3.3 |
 | 60–78 | **Präsentation und Peer-Feedback** | Je Gruppe 4 Min.: 1 Min. Live-Demo am mBot2, 2–3 Min. Tagesplan. Die anderen geben Feedback mit der **Kriterienkarte** (2 × Stärke, 1 × Frage, 1 × Tipp) auf Karten; die Gruppe sammelt die Karten ein. | Plenum, Kriterienkarte | 3.2, 3.4 |
@@ -100,4 +100,4 @@ Die Teilnehmenden können …
 - `S3_Arbeitsheft.md` / `.docx` – Aufgabenkarten der Fachgruppen, Planungsvorlage, Kriterienkarte, Übergabe-Matrix, Selbsteinschätzung, Praxisauftrag
 - `S3_Loesungen.md` / `.docx` – Lösungen der Erprobungsaufgaben, Beispiel-Tagesplan, Erwartungshorizont
 - `S3_Selbstlernmodul.md` – LiaScript: Wissenscheck Planung, Praxisauftrag, Evaluation, Weiterlernen
-- `S3_Unterrichtsmaterial_Klasse7.md` / `.docx` – Projektwochen-Paket für Klasse 7 (Wochenplan, Protokolle, Projekttagebuch, Beobachtungsbogen)
+- `S3_Unterrichtsmaterial.md` / `.docx` – Projektwochen-Paket (Beispiel Klasse 7 mit Hinweisen für andere Jahrgänge: Wochenplan, Protokolle, Projekttagebuch, Beobachtungsbogen)

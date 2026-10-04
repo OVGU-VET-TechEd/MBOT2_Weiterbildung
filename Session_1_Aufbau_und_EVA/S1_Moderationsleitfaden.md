@@ -93,4 +93,4 @@ Siehe `00_Kurskonzept/03_Technik_Vorbereitung.md`. Zusätzlich für diese Sitzun
 - `S1_Arbeitsheft.md` / `.docx` – Arbeitsheft der Teilnehmenden
 - `S1_Loesungen.md` / `.docx` – Lösungen, Musterprogramme, Testprotokoll
 - `S1_Selbstlernmodul.md` – LiaScript: Vorbereitung (Selbstlernphase 0) und Wissenscheck (Selbstlernphase 1)
-- `S1_Unterrichtsmaterial_Klasse7.md` / `.docx` – Arbeitsblatt und Rollenkarten für die eigene Klasse
+- `S1_Unterrichtsmaterial.md` / `.docx` – Arbeitsblatt und Rollenkarten für die eigene Klasse

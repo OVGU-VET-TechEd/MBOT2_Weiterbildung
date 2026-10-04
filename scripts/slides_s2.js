@@ -84,7 +84,7 @@ const slides = [
     code: "Start\n  Wiederhole unendlich oft\n    Wenn  Gib Abstand cm\n          Ultraschallsensor U  <  20\n      Schalte RGB LED an  alle\n                          Farbe rot\n      Spiele Note  Viertel  a'\n    sonst\n      Schalte RGB LED an  alle\n                          Farbe grün",
     side: [
       { head: "Predict (2 Min.)", body: "Was tut der mBot2? Notieren Sie Ihre Vorhersage im Arbeitsheft.", bullets: false },
-      { head: "Investigate", body: ["Was passiert mit 5 statt 20?", "Wo steckt die Schleife?", "Was, wenn „sonst“ fehlt?"], fill: "FCEBDD" },
+      { head: "Investigate", body: ["Was passiert mit 5 statt 20?", "Wo steckt die Schleife?", "Was, wenn „sonst“ fehlt?"], fill: C.tintO },
     ],
     notes: "Erst Vorhersage, dann am Demo-mBot2 ausführen. Investigate-Fragen im Plenum. Modify: Tandems lassen zusätzlich den Abstand auf dem Display anzeigen (Lösungsheft 2.1). Ohne „sonst“ bleibt die LED nach dem ersten Alarm rot – gute Einsicht: Ein Zustand bleibt, bis das Programm ihn ändert.",
   },
@@ -143,9 +143,9 @@ const slides = [
     cols: [
       { head: "Selbstlernmodul 2", body: ["Wissenscheck (11 Fragen)", "ca. 15 Minuten", "Programme exportieren und sichern"] },
       { head: "Fachgruppe wählen", body: ["Technik · Mathematik · Physik", "Informatik · offene Gruppe", "im Moodle bis eine Woche vorher"] },
-      { head: "Lehrplanbezug", body: ["Fachlehrplan Sachsen-Anhalt", "Klasse 7: Wo knüpft der mBot2 an?", "Fundstelle notieren"] },
+      { head: "Lehrplanbezug", body: ["Fachlehrplan Sachsen-Anhalt", "Wunsch-Jahrgangsstufe wählen", "Fundstelle notieren"] },
     ],
-    notes: "Ausblick auf Sitzung 3: Erst selbst ausprobieren, dann planen – in Fachgruppen für eine Projektwoche in Klasse 7. mBot2 an die Ladestation.",
+    notes: "Ausblick auf Sitzung 3: Erst selbst ausprobieren, dann planen – in Fachgruppen für eine Projektwoche; die Gruppe wählt eine gemeinsame Jahrgangsstufe (Voreinstellung Klasse 7). mBot2 an die Ladestation.",
   },
 ];
 

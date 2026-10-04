@@ -1,4 +1,4 @@
-# Unterrichtsmaterial Klasse 7 – Den mBot2 programmieren
+# Unterrichtsmaterial – Den mBot2 programmieren
 
 **Zur Sitzung 2 der Fortbildungsreihe „Der mBot2 im Fachunterricht“**
 
@@ -8,9 +8,18 @@ Das Material ist die schülergerechte Fassung der Aufgaben, die Sie in der Fortb
 
 ## Teil A – Hinweise für die Lehrkraft
 
+**Ausgearbeitet für Klasse 7.** So passen Sie das Material an andere Jahrgangsstufen an (ausführlich in `00_Kurskonzept/07_Anpassung_Jahrgangsstufen.md`):
+
+| Jahrgang | Anpassung |
+|---|---|
+| Klasse 5/6 | Open Roberta mit **Anfänger-Blockauswahl**; Programme vorgeben und nur Zahlen ändern lassen (PRIMM: Modify); Karten A1, A2 und A3 mit vorgegebenem Grenzwert |
+| Klasse 7/8 | wie in diesem Material |
+| Klasse 9/10 | zusätzlich Variablen; A1 als lineare Funktion s(t); B1 Anhalteweg bei mehreren Tempi als Diagramm; A3 mit zwei Schwellen gegen Flackern |
+| Sekundarstufe II | **Experten-Blockauswahl** und Vergleich mit dem erzeugten Python-Code; Linienfolger als Proportionalregler; Messunsicherheit und Regression |
+
 | Merkmal | Hinweis |
 |---|---|
-| Klassenstufe | 7 (anpassbar für 6–9) |
+| Klassenstufe | Beispiel: 7; Varianten siehe oben |
 | Fächer | Informatik, Technik; Aufgaben A1/A2 auch Mathematik, B1 auch Physik |
 | Zeit | 2 Doppelstunden: (1) Mensch-Roboter + A1/A2, (2) A3/B1 + Präsentation |
 | Sozialform | Teams zu 2–3 mit Rollen: Programmierer:in, Tester:in (Maßband, Protokoll), Sprecher:in |

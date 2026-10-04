@@ -63,7 +63,7 @@ Schwere: **A** = fachlich falsch oder nicht durchführbar · **B** = didaktische
 | Befund | Schwere | Maßnahme |
 |---|---|---|
 | Software mBlock | A (Vorgabe) | Open Roberta; Programme aus Sitzung 2 werden weiterverwendet. |
-| Unterschiedliche Klassenstufen in den Gruppen (Selbstreflexion) | B | Klasse 7 verbindlich als Referenz (übernommen); Übertragung im Praxisauftrag. |
+| Unterschiedliche Klassenstufen in den Gruppen (Selbstreflexion) | B | Gemeinsame Referenz-Jahrgangsstufe je Durchführung, zu Beginn festgelegt (Beispiel Klasse 7); Varianten für alle Jahrgänge in `07_Anpassung_Jahrgangsstufen.md`; Übertragung im Praxisauftrag. |
 | Montag sah Zusammenbau vor (Selbstreflexion) | B | Funktionsprüfung und Fehlersuche (übernommen). |
 | Kernauftrag und Erweiterung nicht getrennt; Beteiligung ungleich (Selbstreflexion) | B | Kernauftrag/Erweiterung auf jeder Karte; feste Rollen mit Wechsel. |
 | ICT-CFT-Zuordnung mit Begriffen aus Version 2 („Technology Literacy“) | C | Version-3-Begriffe. |
@@ -93,7 +93,7 @@ Die Progression folgt der Reihe: In Sitzung 1 werden Grundbegriffe gesichert (me
 | Sind praktische Lernziele angemessen geprüft? | LZ 1.3 (Montage) und LZ 2.5 (Mini-Teach) sind Handlungsziele. Sie werden in der Präsenz beobachtet (Funktionsprüfung, Leitkarte); die Quizfragen prüfen nur das zugehörige Wissen. Das ist so beabsichtigt. |
 | Stimmen alle Rechnungen? | Nachgerechnet: Radumfang π · 6,5 cm ≈ 20,4 cm; 50 cm ≈ 2,45 Umdrehungen; 50 U/min ≈ 17 cm/s; 60 U/min ≈ 20,4 cm/s; Weg A = 100 cm, Weg B = 140 cm; 10 kürzeste Rasterwege; P(6 ≤ X ≤ 14) bei n = 20, p = 0,5 ≈ 0,96. |
 
-## 4 Prüfung der Unterrichtsmaterialien (Klasse 7)
+## 4 Prüfung der Unterrichtsmaterialien (Beispiel Klasse 7 und Varianten)
 
 | Prüfpunkt | Ergebnis |
 |---|---|
@@ -102,6 +102,7 @@ Die Progression folgt der Reihe: In Sitzung 1 werden Grundbegriffe gesichert (me
 | Differenzierung (Hilfekarten, Erweiterungen) | erfüllt; Hilfekarten dreistufig |
 | Sicherheit (Fahrten am Boden, Not-Aus mit Taste B, Hardware nur ausgeschaltet verändern) | erfüllt |
 | Bewertungsgrundlagen (Protokolle, Tagebuch, Beobachtungsbogen) | erfüllt |
+| Anpassbarkeit an Klasse 5/6, 9/10 und Sek II | erfüllt: Stellschrauben und Varianten je Aufgabe in `07_Anpassung_Jahrgangsstufen.md`, Kurzfassung in jedem Unterrichtsmaterial |
 
 ## 5 Offene Punkte vor der ersten Durchführung
 
@@ -110,7 +111,18 @@ Die Progression folgt der Reihe: In Sitzung 1 werden Grundbegriffe gesichert (me
 | **Alle Musterprogramme am Gerät testen** und im Testprotokoll der Lösungshefte abzeichnen. Die Programme wurden gegen die offizielle Blockhilfe von Open Roberta geschrieben, aber noch nicht an einem mBot2 ausgeführt. Blockbeschriftungen (z. B. Auswahl „alle“ bei den LEDs, Namen der Quad-RGB-Einzelsensoren) können abweichen. | Fortbildungsleitung | offen |
 | Ablauf Connector → Token → Lab an den Geräten des Veranstaltungsorts durchspielen | Fortbildungsleitung | offen |
 | Fundstellen in den Fachlehrplänen Sachsen-Anhalt für den Beispiel-Tagesplan eintragen | Fortbildungsleitung / Teilnehmende (Selbstlernmodul 2) | offen |
-| Anerkennung als Fortbildung beantragen; Termine, Ort, Kosten in der Ausschreibung ergänzen | Veranstalter | offen |
+| Klärung mit dem LISA, Fachbereich 4 (E-Mail-Entwurf `08_LISA_Anerkennung/05_Anfrage_LISA.md`); Termine, Ort, Kosten in Ausschreibung, Kursprogramm und Einladung ergänzen | Veranstalter | offen |
+| SCORM-Pakete einmal im Bildungsportal hochladen und mit einem Testkonto durchlaufen (Speichern des Bearbeitungsstands, Abschlussverfolgung) | Fortbildungsleitung | offen |
+| Zuordnung zur Fakultät für Humanwissenschaften im Logo bestätigen | Kursverantwortung | offen |
 | Pilotdurchführung mit einer Gruppe von mindestens 8 Lehrkräften; Zeiten, Lernpfade und Mini-Teach anhand der Evaluation nachjustieren | Fortbildungsleitung | offen |
 | Link [roberta-home.de](https://www.roberta-home.de): Bei der automatischen Prüfung am 04.10.2026 schlug die Zertifikatsprüfung fehl. Vor Veröffentlichung im Browser prüfen. | Fortbildungsleitung | offen |
 | Sollen die studentischen Autorinnen und Autoren der Ausgangsmaterialien namentlich genannt werden? | Kursverantwortung | offen |
+
+## 6 Prüfungen der Überarbeitung vom 4. Oktober 2026
+
+| Änderung | Prüfung | Ergebnis |
+|---|---|---|
+| Corporate Design der OVGU (Logo der Fakultät für Humanwissenschaften aus dem offiziellen CD-Paket, Hausfarbe #7a003f, Fakultätsfarbe #ef7d00, Office-Schrift Lucida Sans) | Folien in PowerPoint gerendert und gesichtet; Textpassung mit den Metriken von Lucida Sans geprüft (`fit_check.py`); Kontrast: auf Orange nur dunkle Schrift | keine Überläufe, keine Wortumbrüche |
+| Anpassbarkeit an alle Jahrgangsstufen | jede Erwähnung von „Klasse 7“ geprüft: nur noch als Beispiel oder Voreinstellung; Variantentabellen je Sitzung und je Unterrichtsmaterial | erfüllt |
+| SCORM-Pakete für Moodle | Manifest geprüft (SCORM 1.2, ASCII-Bezeichner); alle drei Pakete in einer simulierten SCORM-1.2-Umgebung (Chrome, API-Stub) gestartet: Initialisierung, Registrierung aller Quizfragen und Umfragen, Darstellung des Inhalts | erfüllt; Test im Bildungsportal steht aus |
+| Unterlagen zur Anerkennung durch das LISA | Abgleich mit dem LISA-Formular LISA_PDF_V_0017 (alle Felder) und der Seite „Externe Fortbildungsangebote“ des Bildungsservers | Verfahren beschrieben; Eignung als Ersatzangebot vorab mit dem LISA klären |

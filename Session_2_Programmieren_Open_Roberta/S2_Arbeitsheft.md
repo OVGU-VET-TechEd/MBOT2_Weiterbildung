@@ -212,7 +212,7 @@ Entwerfen Sie eine Aufgabe für Ihre Klasse, in der der mBot2 einen **fachlichen
 
 - [ ] **Selbstlernmodul 2**: Wissenscheck zu Schleifen, Bedingungen und Sensoren.
 - [ ] **Fachgruppe für Sitzung 3** im Moodle wählen: Technik · Mathematik · Physik · Informatik · offen.
-- [ ] Im Fachlehrplan Ihres Fachs (Sachsen-Anhalt, Klasse 7) eine Stelle suchen, an die der mBot2 anknüpfen kann, und notieren.
+- [ ] Im Fachlehrplan Ihres Fachs (Sachsen-Anhalt) für Ihre Wunsch-Jahrgangsstufe eine Stelle suchen, an die der mBot2 anknüpfen kann, und notieren. Voreinstellung für Sitzung 3 ist Klasse 7.
 
 <!-- pagebreak -->
 

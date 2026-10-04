@@ -6,6 +6,13 @@ language: de
 narrator: Deutsch Female
 comment:  Selbstlernmodul zu Sitzung 1 der Fortbildungsreihe „Der mBot2 im Fachunterricht“:
           Vorbereitung (Selbstlernphase 0) und Wissenscheck (Selbstlernphase 1).
+logo:     https://raw.githubusercontent.com/OVGU-VET-TechEd/mBot2_Fortbildung_Magdeburg/main/assets/ovgu_fhw_logo.png
+
+@style
+/* Corporate Design der OVGU: Hausfarbe Dunkelrot, Fakultätsfarbe FHW Orange */
+.lia-content h1, .lia-content h2 { color: #7a003f; }
+.lia-content blockquote { border-left: 4px solid #ef7d00; background: #fdf0e3; }
+@end
 -->
 
 # Selbstlernmodul 1 – Den mBot2 kennenlernen
@@ -178,12 +185,12 @@ Zeichnen hilft: erst 30 cm geradeaus, dann Vierteldrehung nach links, dann 30 cm
 ****************************************
 
 **Frage 10** · LZ 1.5 (Beurteilung)
-Eine Kollegin plant für eine **45-Minuten-Stunde** in Klasse 7: mBot2 auspacken und zusammenbauen, Connector installieren, erstes Programm schreiben. Wie beurteilen Sie die Planung?
+Eine Kollegin plant für eine **45-Minuten-Stunde** in einer 7. Klasse: mBot2 auspacken und zusammenbauen, Connector installieren, erstes Programm schreiben. Wie beurteilen Sie die Planung?
 
 [( )] Realistisch, wenn die Schülerinnen und Schüler motiviert sind
 [( )] Realistisch, wenn sie in Dreiergruppen arbeiten
 [(X)] Unrealistisch: Montage braucht etwa eine Doppelstunde, und die Installation sollte vorab durch die Lehrkraft erfolgen
-[( )] Unrealistisch, weil Klasse 7 noch nicht programmieren kann
+[( )] Unrealistisch, weil Siebtklässler noch nicht programmieren können
 ****************************************
 Schon Erwachsene brauchten im Tandem rund 40–45 Minuten für die Montage. Die Installation gehört in die Vorbereitung. Programmieren können Siebtklässler mit Blocksprachen dagegen sehr gut.
 ****************************************

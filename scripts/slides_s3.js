@@ -6,7 +6,7 @@ const slides = [
   {
     type: "cover", number: "3", kicker: "FORTBILDUNGSREIHE · DER mBOT2 IM FACHUNTERRICHT",
     title: "Vom Roboter zum Unterricht", subtitle: "Fachbezogene Erprobung und Planung einer Projektwoche",
-    chips: ["Sitzung 3 von 3", "90 Minuten", "Klasse 7"],
+    chips: ["Sitzung 3 von 3", "90 Minuten", "Klasse 5–13"],
     notes: "Begrüßung. Kernbotschaft: Erst selbst ausprobieren, dann planen. Was Sie heute am mBot2 erleben – Zeitbedarf, Stolperstellen, Aha-Momente – wird zur Grundlage Ihrer Unterrichtsplanung.",
   },
   {
@@ -15,7 +15,7 @@ const slides = [
     cards: [
       { head: "Sitzung 1", body: ["mBot2 aufgebaut", "EVA-Prinzip erklärt", "mit Open Roberta verbunden"] },
       { head: "Sitzung 2", body: ["Schleifen und Bedingungen", "Schwellenwerte gemessen", "Fehler systematisch gesucht"] },
-      { head: "Heute", body: ["Aufgabe für Klasse 7 erproben", "Tagesplan entwickeln", "Übergaben abstimmen"], color: C.orange, fill: "FCEBDD" },
+      { head: "Heute", body: ["Jahrgangsstufe festlegen", "Aufgabe erproben, Tagesplan entwickeln", "Übergaben abstimmen"], color: C.orange, fill: C.tintO },
     ],
     notes: "Blitzlicht reihum, ein Satz pro Person. Wer möchte, vergleicht bereits seine Selbsteinschätzung aus Sitzung 1.",
   },
@@ -30,7 +30,7 @@ const slides = [
     notes: "Grundprinzip aus der erprobten Planungssession. Die Erprobung hat dort auch Planungsfehler sichtbar gemacht, die am Schreibtisch unbemerkt geblieben wären (z. B. Montag sah noch den Zusammenbau vor).",
   },
   {
-    type: "table", title: "Die Projektwoche für Klasse 7", size: 16, rowH: 0.55,
+    type: "table", title: "Die Projektwoche – Beispiel Klasse 7", size: 16, rowH: 0.55,
     colW: [1.8, 2.2, 6.4, 1.7],
     head: ["Tag", "Fach", "Tagesziel der Schülerinnen und Schüler", "Zeit"],
     rows: [
@@ -40,8 +40,8 @@ const slides = [
       ["Donnerstag", "Informatik", "eigenes Steuerprogramm mit Schleife und Bedingungen", "4–6 Std."],
       ["Freitag", "Präsentation", "Schülerinnen und Schüler präsentieren als Expert:innen (schulindividuell)", "3–4 Std."],
     ],
-    callout: "Referenz für alle Gruppen: Klasse 7, Teams zu 3–4, mBot2 montiert. Die Übertragung auf Ihre eigene Lerngruppe folgt im Praxisauftrag.",
-    notes: "Erfahrung aus der Erprobung: Ohne gemeinsame Klassenstufe planten die Gruppen für unterschiedliche Jahrgänge, Anspruch und Übergaben passten nicht zusammen. Deshalb verbindlich Klasse 7. Eine offene Gruppe für weitere Fächer (Deutsch, Ethik, Biologie …) ist möglich.",
+    callout: "Wir legen jetzt eine gemeinsame Jahrgangsstufe fest (Voreinstellung: Klasse 7). Varianten für Kl. 5/6, 9/10 und Sek II stehen im Anpassungsleitfaden.",
+    notes: "Erfahrung aus der Erprobung: Ohne gemeinsame Klassenstufe planten die Gruppen für unterschiedliche Jahrgänge, Anspruch und Übergaben passten nicht zusammen. Deshalb legt die Gruppe jetzt eine gemeinsame Jahrgangsstufe fest – Ergebnis der Abfrage aus Selbstlernmodul 2 zeigen, per Handzeichen entscheiden, ohne klare Mehrheit Klasse 7. Für andere Jahrgänge die Variantentabelle aus 07_Anpassung_Jahrgangsstufen.md austeilen. Eine offene Gruppe für weitere Fächer (Deutsch, Ethik, Biologie …) ist möglich.",
   },
   {
     type: "timeline", title: "Ablauf heute",
@@ -60,7 +60,7 @@ const slides = [
     lead: "Wechsel nach dem Kernauftrag – damit sich alle beteiligen.",
     cards: [
       { head: "Bedienung", body: ["programmiert und startet den mBot2", "setzt die Aufgabe praktisch um"] },
-      { head: "Zeit und Beobachtung", body: ["stoppt die Dauer jedes Schritts", "notiert Stolperstellen und Aha-Momente", "→ Grundlage Ihrer Zeitplanung"], color: C.orange, fill: "FCEBDD" },
+      { head: "Zeit und Beobachtung", body: ["stoppt die Dauer jedes Schritts", "notiert Stolperstellen und Aha-Momente", "→ Grundlage Ihrer Zeitplanung"], color: C.orange, fill: C.tintO },
       { head: "Dokumentation", body: ["hält Ergebnisse, Messwerte, Programme fest", "bereitet die Präsentation vor"] },
     ],
     callout: "Jede Aufgabenkarte hat einen Kernauftrag (Pflicht, 20 Min.) und eine Erweiterung (optional, 10 Min.).",

@@ -101,4 +101,4 @@ Die Hilfekarten stehen im Arbeitsheft-Anhang (Teilnehmende) und sind zugleich Vo
 - `S2_Arbeitsheft.md` / `.docx` – Arbeitsheft mit Lernpfaden, Protokollen und Hilfekarten
 - `S2_Loesungen.md` / `.docx` – Musterprogramme, Erwartungshorizont, Testprotokoll
 - `S2_Selbstlernmodul.md` – LiaScript: Wissenscheck und Vorbereitung auf Sitzung 3
-- `S2_Unterrichtsmaterial_Klasse7.md` / `.docx` – Unplugged-Karte, Aufgabenkarten und Hilfekarten für die eigene Klasse
+- `S2_Unterrichtsmaterial.md` / `.docx` – Unplugged-Karte, Aufgabenkarten und Hilfekarten für die eigene Klasse

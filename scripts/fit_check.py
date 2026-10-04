@@ -1,6 +1,6 @@
 """Prüft, ob Text in den Textfeldern der Foliensätze Platz hat.
 
-Misst jede Textzeile mit den echten Schriftmetriken (Calibri, Cambria, Courier New aus
+Misst jede Textzeile mit den echten Schriftmetriken (Lucida Sans, Calibri, Cambria, Courier New aus
 der Office-Installation), bricht wie PowerPoint an Wortgrenzen um und vergleicht die
 benötigte Höhe mit der Höhe des Textfelds. Tabellen werden auf ihre Unterkante geprüft.
 
@@ -16,6 +16,7 @@ FONTDIR = Path("/Applications/Microsoft PowerPoint.app/Contents/Resources/DFonts
 FILES = {
     ("Calibri", False): "Calibri.ttf", ("Calibri", True): "Calibrib.ttf",
     ("Cambria", False): "Cambria.ttc", ("Cambria", True): "Cambriab.ttf",
+    ("Lucida Sans", False): "Lucida Sans.ttf", ("Lucida Sans", True): "Lucida Sans Demibold Roman.ttf",
     ("Courier New", False): "/System/Library/Fonts/Supplemental/Courier New.ttf",
     ("Courier New", True): "/System/Library/Fonts/Supplemental/Courier New Bold.ttf",
 }

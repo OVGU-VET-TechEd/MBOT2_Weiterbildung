@@ -13,9 +13,14 @@ node scripts/slides_s2.js "$S2/S2_Folien.pptx"
 node scripts/slides_s3.js "$S3/S3_Folien.pptx"
 
 for dir in $S1 $S2 $S3; do
-  for md in "$dir"/*_Arbeitsheft.md "$dir"/*_Loesungen.md "$dir"/*_Unterrichtsmaterial_Klasse7.md; do
+  for md in "$dir"/*_Arbeitsheft.md "$dir"/*_Loesungen.md "$dir"/*_Unterrichtsmaterial.md; do
     node scripts/md2docx.js "$md" "${md%.md}.docx"
   done
+done
+
+# Unterlagen für die Anerkennung durch das LISA (ohne Verfahrensbeschreibung und E-Mail-Entwurf)
+for md in 00_Kurskonzept/08_LISA_Anerkennung/0[1-4]_*.md; do
+  node scripts/md2docx.js "$md" "${md%.md}.docx"
 done
 
 python3 scripts/qa_check.py

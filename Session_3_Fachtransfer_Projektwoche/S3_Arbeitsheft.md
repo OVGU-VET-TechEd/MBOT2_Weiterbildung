@@ -4,7 +4,7 @@
 
 Name: ______________________________   Fachgruppe: ______________________________
 
-> **Ihr Ziel heute:** Sie erproben in Ihrer Fachgruppe eine Aufgabe am mBot2 so, wie sie später Ihre Schülerinnen und Schüler bearbeiten. Aus Ihren Erfahrungen entwickeln Sie einen Tagesplan für eine **Klasse 7** und stimmen ihn mit den anderen Projekttagen ab.
+> **Ihr Ziel heute:** Sie erproben in Ihrer Fachgruppe eine Aufgabe am mBot2 so, wie sie später Ihre Schülerinnen und Schüler bearbeiten. Aus Ihren Erfahrungen entwickeln Sie einen Tagesplan für die **gemeinsam gewählte Jahrgangsstufe** und stimmen ihn mit den anderen Projekttagen ab.
 
 **Grundprinzip: Erst selbst ausprobieren – dann planen.**
 
@@ -20,7 +20,7 @@ Name: ______________________________   Fachgruppe: _____________________________
 | Donnerstag | Informatik | eigenes Steuerprogramm mit Schleife und Bedingungen entwickelt und getestet | 4–6 Std. |
 | Freitag | Präsentation | Schülerinnen und Schüler präsentieren als Expert:innen (schulindividuell) | 3–4 Std. |
 
-**Referenz-Lerngruppe:** Klasse 7, Teams zu 3–4, Rollen Bedienung – Beobachtung – Dokumentation, täglich wechselnd. Die mBot2 sind montiert; Grundbefehle sind aus einer Einführungsstunde bekannt.
+**Unsere Referenz-Jahrgangsstufe:** Klasse ______ (Voreinstellung und ausgearbeitetes Beispiel: Klasse 7; Varianten für Klasse 5/6, 9/10 und Sek II in `07_Anpassung_Jahrgangsstufen.md`). Teams zu 3–4, Rollen Bedienung – Beobachtung – Dokumentation, täglich wechselnd. Die mBot2 sind montiert; Grundbefehle sind aus einer Einführungsstunde bekannt.
 
 **Rollen in Ihrer Fachgruppe heute:** Bedienung · Zeit und Beobachtung · Dokumentation – Wechsel nach dem Kernauftrag.
 
@@ -33,7 +33,7 @@ Name: ______________________________   Fachgruppe: _____________________________
 **Kernauftrag (20 Min.)**
 1. Legen Sie ein beobachtbares **Soll-Verhalten** fest (z. B. 30 cm vorwärts, LED grün, Ton) und programmieren Sie es. Sichern Sie die funktionierende Version (Export).
 2. Bauen Sie **genau einen** reversiblen Fehler ein – im Programm **oder** in der Hardware (**nur bei ausgeschaltetem Gerät**; keine Eingriffe am Akku). Beispiele: falsche Richtung, falsche Strecke, abgezogenes Motor- oder Sensorkabel.
-3. Schreiben Sie einen **Diagnoseauftrag** für Klasse 7: nur Soll-Verhalten und beobachtbares Symptom, nicht die Ursache.
+3. Schreiben Sie einen **Diagnoseauftrag** für Ihre Referenz-Jahrgangsstufe: nur Soll-Verhalten und beobachtbares Symptom, nicht die Ursache.
 4. Tauschen Sie mit der Nachbargruppe oder einer Person aus Ihrer Gruppe, die nicht zugesehen hat: Findet sie den Fehler mit *Beobachten → Vermuten → Testen → Ändern → Kontrolltest*?
 
 **Erweiterung (10 Min.)** Formulieren Sie **gestufte Hinweise** (H1–H3), die helfen, ohne die Ursache zu verraten.
@@ -74,13 +74,13 @@ Raster: 1 Feld = 20 cm. Start S (0|0), Ziel Z (3|2). Der mBot2 startet in Richtu
 - **Ethik – Entscheidungen von Maschinen:** Programmieren Sie den „Hindernis“-Roboter so, dass er bei einem Hindernis immer nach rechts ausweicht. Diskutieren Sie: Wer hat diese Entscheidung getroffen? Was wäre, wenn rechts ein zweites Hindernis steht? Übertragen Sie auf ein reales System (z. B. Notbremsassistent).
 - **Biologie – Verhalten modellieren:** Photokinese (Sitzung 2, C2) als Modell; Grenzen des Modells benennen.
 
-**Erweiterung (10 Min.)** Formulieren Sie die fachliche Leitfrage für Klasse 7 und ein erwartbares Schülerergebnis.
+**Erweiterung (10 Min.)** Formulieren Sie die fachliche Leitfrage für Ihre Referenz-Jahrgangsstufe und ein erwartbares Schülerergebnis.
 
 <!-- pagebreak -->
 
 ## Zeit- und Beobachtungsprotokoll (Rolle „Zeit und Beobachtung“)
 
-| Schritt | Dauer (Min.) | Stolperstelle / Aha-Moment | Was braucht Klasse 7 hier? |
+| Schritt | Dauer (Min.) | Stolperstelle / Aha-Moment | Was braucht die Lerngruppe hier? |
 |---|---|---|---|
 | | | | |
 | | | | |
@@ -92,6 +92,7 @@ Raster: 1 Feld = 20 cm. Start S (0|0), Ziel Z (3|2). Der mBot2 startet in Richtu
 | Planungselement | Ihr Eintrag |
 |---|---|
 | Tag und Fach | |
+| Jahrgangsstufe | |
 | Bezug zum Fachlehrplan (Sachsen-Anhalt) | |
 | **Fachliches Lernziel** (Operator + Inhalt; überprüfbar) | Die Schülerinnen und Schüler … |
 | **Rolle des mBot2 und Mehrwert** (Was wird erst durch ihn möglich oder besser?) | |
@@ -137,7 +138,7 @@ Gruppe: ____________ Feedback von: ____________
 
 ## Organisations-Checkliste für die eigene Schule · LZ 3.5
 
-- [ ] mBot2 für Klasse 7 bereitstellen (mind. 1 je 3–4 Schülerinnen und Schüler), Montage und Ladezustand prüfen
+- [ ] mBot2 für die Lerngruppe bereitstellen (mind. 1 je 3–4 Schülerinnen und Schüler), Montage und Ladezustand prüfen
 - [ ] Connector auf allen Schülergeräten installiert und getestet (IT/Medienzentrum)
 - [ ] Unterrichtszeit je Tag mit der Schulleitung abstimmen
 - [ ] Zeitplan aller beteiligten Lehrkräfte abstimmen; Übergabe-Matrix verteilen

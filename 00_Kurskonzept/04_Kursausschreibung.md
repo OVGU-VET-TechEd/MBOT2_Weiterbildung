@@ -1,6 +1,6 @@
 # Kursausschreibung
 
-*Vorlage für die Ausschreibung im Bildungsportal Magdeburg (Moodle) und für einen Antrag auf Anerkennung als Lehrkräftefortbildung. Felder in eckigen Klammern sind vor der Veröffentlichung zu ergänzen.*
+*Vorlage für die Ausschreibung im Bildungsportal Magdeburg (Moodle). Für die Anerkennung durch das LISA gibt es eigene Unterlagen in `08_LISA_Anerkennung/` (Kursprogramm, Einladung, Ausfüllhilfe). Felder in eckigen Klammern sind vor der Veröffentlichung zu ergänzen.*
 
 ---
 
@@ -24,7 +24,7 @@
 
 ### Worum geht es?
 
-Viele Schulen besitzen mBot2-Roboter, doch im Unterricht kommen sie selten zum Einsatz. In dieser Fortbildungsreihe bauen Sie den mBot2 selbst auf, programmieren ihn mit der kostenlosen, browserbasierten Umgebung **Open Roberta Lab** und entwickeln in Fachgruppen einen erprobten Unterrichtsplan für Ihr Fach – als Baustein einer fächerverbindenden Projektwoche für Klasse 7.
+Viele Schulen besitzen mBot2-Roboter, doch im Unterricht kommen sie selten zum Einsatz. In dieser Fortbildungsreihe bauen Sie den mBot2 selbst auf, programmieren ihn mit der kostenlosen, browserbasierten Umgebung **Open Roberta Lab** und entwickeln in Fachgruppen einen erprobten Unterrichtsplan für Ihr Fach – als Baustein einer fächerverbindenden Projektwoche. Das Material ist am Beispiel Klasse 7 ausgearbeitet und enthält Varianten für alle Jahrgangsstufen der Sekundarstufe I und II.
 
 Sie erleben dabei selbst die Methoden, die Sie anschließend im Unterricht einsetzen können: Arbeiten mit Rollen im Team, Vorhersagen vor dem Testen, Lernpfade für heterogene Gruppen und systematische Fehlersuche.
 
@@ -32,7 +32,7 @@ Sie erleben dabei selbst die Methoden, die Sie anschließend im Unterricht einse
 
 1. **Den mBot2 kennenlernen:** Bauteile, EVA-Prinzip, Zusammenbau, Verbindung mit Open Roberta, erstes Programm
 2. **Programmieren mit Open Roberta:** Sequenz, Schleife, Bedingung, Sensorwerte und Schwellenwerte, Fehlersuche; Lernpfade für Einsteigende bis Erfahrene
-3. **Vom Roboter zum Unterricht:** Erprobung in Fachgruppen (Technik, Mathematik, Physik, Informatik, weitere Fächer), Planung eines Projekttags für Klasse 7, Peer-Feedback, Organisation an der eigenen Schule
+3. **Vom Roboter zum Unterricht:** Erprobung in Fachgruppen (Technik, Mathematik, Physik, Informatik, weitere Fächer), Planung eines Projekttags für eine gemeinsam gewählte Jahrgangsstufe, Peer-Feedback, Organisation an der eigenen Schule
 
 ### Ziele
 
@@ -53,4 +53,4 @@ Sitzung 1: nichts (Geräte werden gestellt). Sitzung 2 und 3: Arbeitsheft der vo
 
 ### Hinweise
 
-Die mBot2 und Laptops werden gestellt. Die Materialien (Präsentationen, Arbeitshefte, Unterrichtsmaterial für Klasse 7) stehen unter der Lizenz CC BY 4.0 zur freien Nutzung und Anpassung bereit.
+Die mBot2 und Laptops werden gestellt. Die Materialien (Präsentationen, Arbeitshefte, Unterrichtsmaterial für Klasse 5 bis 13) stehen unter der Lizenz CC BY 4.0 zur freien Nutzung und Anpassung bereit.

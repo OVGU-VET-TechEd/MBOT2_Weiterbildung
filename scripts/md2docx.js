@@ -11,14 +11,18 @@ const path = require("path");
 const {
   Document, Packer, Paragraph, TextRun, HeadingLevel, Table, TableRow, TableCell,
   WidthType, BorderStyle, ShadingType, AlignmentType, PageBreak, Footer, PageNumber,
-  LevelFormat, TableLayoutType,
+  LevelFormat, TableLayoutType, Header, ImageRun,
 } = require("docx");
 
 const TEXT_W = 11906 - 2 * 1100; // A4-Breite minus Ränder, in twip
 
-const ACCENT = "0B6E69";   // Petrol – Kursfarbe
-const TINT = "E6F2F1";
-const GRID = "9DB8B6";
+// Corporate Design der OVGU: Hausfarbe Dunkelrot, Fakultätsfarbe FHW Orange, Office-Schrift Lucida Sans
+const ACCENT = "7A003F";
+const ORANGE = "EF7D00";
+const TINT = "FDF0E3";
+const GRID = "BFBFBF";
+const FONT = "Lucida Sans";
+const LOGO = path.join(__dirname, "..", "assets", "ovgu_fhw_logo.png");
 
 function inline(text, base = {}) {
   // Zerlegt **fett**, *kursiv* und `code` in TextRuns.
@@ -71,7 +75,8 @@ function table(rows) {
     columnWidths: pct.map((p) => Math.round((p * TEXT_W) / 100)),
     borders: { top: border, bottom: border, left: border, right: border, insideHorizontal: border, insideVertical: border },
     rows: [
-      new TableRow({ tableHeader: true, children: header.map((h, i) => cell(h, true, pct[i])) }),
+      // Leere Kopfzeile (Schlüssel-Wert-Tabellen) nicht ausgeben
+      ...(header.some((h) => h.trim()) ? [new TableRow({ tableHeader: true, children: header.map((h, i) => cell(h, true, pct[i])) })] : []),
       ...body.map((r) => new TableRow({ children: Array.from({ length: n }, (_, i) => cell(r[i] || "", false, pct[i])) })),
     ],
   });
@@ -91,8 +96,12 @@ function convert(md, title) {
   md = md.replace(/<!--\s*pagebreak\s*-->/g, "@@PAGEBREAK@@").replace(/<!--[\s\S]*?-->/g, "");
   const lines = md.split(/\r?\n/);
   let i = 0;
+  let listInstance = 0;   // jede nummerierte Liste beginnt wieder bei 1
+  let prevNumbered = false;
   while (i < lines.length) {
     const line = lines[i];
+    // Jede nicht leere Zeile, die kein Listenpunkt ist, beendet eine nummerierte Liste
+    if (line.trim() && !/^\s*\d+\.\s+/.test(line)) prevNumbered = false;
     if (line.trim() === "@@PAGEBREAK@@") { out.push(new Paragraph({ children: [new PageBreak()] })); i++; continue; }
     if (/^\s*$/.test(line) || /^---+\s*$/.test(line)) { i++; continue; }
     let m;
@@ -115,7 +124,7 @@ function convert(md, title) {
       const paras = buf.join("\n").split(/\n\s*\n/);
       paras.forEach((p) => out.push(new Paragraph({
         shading: { type: ShadingType.CLEAR, fill: TINT, color: "auto" },
-        border: { left: { style: BorderStyle.SINGLE, size: 18, color: ACCENT, space: 6 } },
+        border: { left: { style: BorderStyle.SINGLE, size: 18, color: ORANGE, space: 6 } },
         spacing: { before: 60, after: 60 },
         indent: { left: 200, right: 200 },
         children: inline(p.replace(/\n/g, " ")),
@@ -131,7 +140,9 @@ function convert(md, title) {
       i++; continue;
     }
     if ((m = line.match(/^(\s*)\d+\.\s+(.*)$/))) {
-      out.push(new Paragraph({ numbering: { reference: "num", level: m[1].length >= 2 ? 1 : 0 }, children: inline(m[2]) }));
+      if (!prevNumbered) listInstance++;
+      out.push(new Paragraph({ numbering: { reference: "num", level: m[1].length >= 2 ? 1 : 0, instance: listInstance }, children: inline(m[2]) }));
+      prevNumbered = true;
       i++; continue;
     }
     if (line.startsWith("```")) {
@@ -158,10 +169,10 @@ function convert(md, title) {
     creator: "ITVET – OVGU Magdeburg",
     title,
     styles: {
-      default: { document: { run: { font: "Calibri", size: 22 } } },
+      default: { document: { run: { font: FONT, size: 19 } } },
       paragraphStyles: [
-        { id: "Heading1", name: "Heading 1", basedOn: "Normal", next: "Normal", run: { size: 34, bold: true, color: ACCENT, font: "Cambria" }, paragraph: { spacing: { before: 240, after: 160 } } },
-        { id: "Heading2", name: "Heading 2", basedOn: "Normal", next: "Normal", run: { size: 28, bold: true, color: ACCENT, font: "Cambria" }, paragraph: { spacing: { before: 240, after: 120 } } },
+        { id: "Heading1", name: "Heading 1", basedOn: "Normal", next: "Normal", run: { size: 34, bold: true, color: ACCENT, font: FONT }, paragraph: { spacing: { before: 240, after: 160 } } },
+        { id: "Heading2", name: "Heading 2", basedOn: "Normal", next: "Normal", run: { size: 28, bold: true, color: ACCENT, font: FONT }, paragraph: { spacing: { before: 240, after: 120 } } },
         { id: "Heading3", name: "Heading 3", basedOn: "Normal", next: "Normal", run: { size: 24, bold: true, color: "333333" }, paragraph: { spacing: { before: 180, after: 80 } } },
         { id: "Heading4", name: "Heading 4", basedOn: "Normal", next: "Normal", run: { size: 22, bold: true, color: "333333" }, paragraph: { spacing: { before: 120, after: 60 } } },
       ],
@@ -177,6 +188,14 @@ function convert(md, title) {
     },
     sections: [{
       properties: { page: { margin: { top: 1000, bottom: 1000, left: 1100, right: 1100 } } },
+      headers: {
+        default: new Header({
+          children: [new Paragraph({
+            alignment: AlignmentType.RIGHT,
+            children: [new ImageRun({ type: "png", data: fs.readFileSync(LOGO), transformation: { width: 210, height: 48 } })],
+          })],
+        }),
+      },
       footers: {
         default: new Footer({
           children: [new Paragraph({

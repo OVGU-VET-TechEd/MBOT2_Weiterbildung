@@ -11,11 +11,11 @@ const slides = [
   },
   {
     type: "cards", title: "Die Fortbildungsreihe im Überblick",
-    lead: "Jede Sitzung folgt dem Dreischritt Erleben → Reflektieren → Übertragen.",
+    lead: "Jede Sitzung folgt dem Dreischritt Erleben → Reflektieren → Übertragen.", size: 16,
     cards: [
-      { head: "Sitzung 1 · heute", body: ["mBot2 aufbauen und als System verstehen", "EVA-Prinzip", "mit Open Roberta verbinden", "erstes Programm"], fill: "FCEBDD", color: C.orange },
+      { head: "Sitzung 1 · heute", body: ["mBot2 aufbauen und als System verstehen", "EVA-Prinzip", "mit Open Roberta verbinden", "erstes Programm"], fill: C.tintO, color: C.orange },
       { head: "Sitzung 2", body: ["Sequenz, Schleife, Bedingung", "Sensorwerte und Schwellenwerte", "Lernpfade A/B/C", "Mini-Teach"] },
-      { head: "Sitzung 3", body: ["Erprobung in Fachgruppen", "Tagesplan für eine Projektwoche Klasse 7", "Peer-Feedback, Übergaben"] },
+      { head: "Sitzung 3", body: ["Erprobung in Fachgruppen", "Tagesplan für eine Projektwoche (Kl. 5–13)", "Peer-Feedback, Übergaben"] },
     ],
     callout: "Pädagogischer Doppeldecker: Sie erleben heute selbst die Methoden, die Sie später in Ihrer Klasse einsetzen können.",
     notes: "Überblick über die drei Sitzungen und die Selbstlernphasen dazwischen. Den Doppeldecker erklären: Wir fragen am Ende jeder Phase, was das für Ihre Klasse bedeutet.",
@@ -24,7 +24,7 @@ const slides = [
     type: "timeline", title: "Ziele und Ablauf heute",
     lead: "Ziel: Den mBot2 selbstständig in Betrieb nehmen und das Zusammenspiel von Sensor, Steuerung und Aktor erklären.",
     phases: [
-      { time: "0–10", head: "Ankommen", body: "Ampel-Selbsteinschätzung, Tandems bilden" },
+      { time: "0–10", head: "Ankommen", body: "Ampel-Abfrage, Tandems bilden" },
       { time: "10–24", head: "EVA und Bauteile", body: "Leitfrage, Bauteile zuordnen (Arbeitsheft Aufgabe 1)" },
       { time: "24–62", head: "Montage im Tandem", body: "Rollen, 9 Bauschritte, Funktionsprüfung", hl: true },
       { time: "62–80", head: "Open Roberta", body: "Verbinden, erstes Programm vorhersagen und testen" },
@@ -118,7 +118,7 @@ const slides = [
     code: "Start\n  Wiederhole unendlich oft\n    Warte bis  Taste A gedrückt?\n    Fahre vorwärts  Tempo U/min 30\n                    Strecke cm 20\n    Drehe rechts    Tempo U/min 30\n                    Grad 180\n    Fahre vorwärts  Tempo U/min 30\n                    Strecke cm 10",
     side: [
       { head: "Vorhersage (Tandem, 1 Min.)", body: "Wo steht der mBot2 am Ende? In welche Richtung schaut er? Skizzieren Sie Start und Ende.", bullets: false },
-      { head: "Dann testen", body: "Auf dem Boden fahren lassen. Stimmt die Vorhersage? Was weicht ab?", bullets: false, fill: "FCEBDD" },
+      { head: "Dann testen", body: "Auf dem Boden fahren lassen. Stimmt die Vorhersage? Was weicht ab?", bullets: false, fill: C.tintO },
     ],
     notes: "Block für Block am Beamer bauen und dabei laut erklären (Feedback: Code-Erklärung am Beamer). Erst Vorhersage einholen, dann ausführen. Lösung: 10 cm vor dem Start, Blick zurück zum Start. Abweichungen (Drehung nicht genau 180°) nicht wegerklären – Vorgriff auf Sitzung 2: Modell und Wirklichkeit.",
   },

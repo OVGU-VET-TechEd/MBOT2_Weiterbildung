@@ -15,7 +15,7 @@ Die Fortbildungsreihe setzt genau dort an. Die Teilnehmenden
 
 1. **bauen und verstehen** den mBot2 als technisches System (Sitzung 1),
 2. **programmieren** ihn mit Open Roberta Lab so, wie es später ihre Schülerinnen und Schüler tun (Sitzung 2), und
-3. **übertragen** das Gelernte in eine erprobte, fachbezogene Unterrichtsplanung für eine Projektwoche in Klasse 7 (Sitzung 3).
+3. **übertragen** das Gelernte in eine erprobte, fachbezogene Unterrichtsplanung für eine Projektwoche – ausgearbeitet am Beispiel Klasse 7, anpassbar für alle Jahrgangsstufen der Sekundarstufe (Sitzung 3).
 
 Leitprinzip der gesamten Reihe ist der **pädagogische Doppeldecker**: Die Lehrkräfte durchlaufen selbst die Methoden und Aufgaben, die sie später einsetzen, und reflektieren anschließend auf der zweiten Ebene, was das für ihre eigene Klasse bedeutet. Jede Sitzung folgt deshalb dem Dreischritt **Erleben → Reflektieren → Übertragen**.
 
@@ -39,7 +39,7 @@ Leitprinzip der gesamten Reihe ist der **pädagogische Doppeldecker**: Die Lehrk
 | **Kernmethode** | Zusammenbau im Tandem mit Rollen, Live-Demo am Beamer | Unplugged-Einstieg, PRIMM, Lernpfade A/B/C, Mini-Teach | Erproben → Planen → Peer-Feedback (Fachgruppen) |
 | **Produkt der Teilnehmenden** | fahrbereiter mBot2, ausgefülltes Bauteil-/EVA-Blatt, erstes Programm | 2–3 lauffähige, selbst entwickelte Programme | erprobter Tagesplan für die Projektwoche, Übergabe an die nächste Fachgruppe |
 | **ICT-CFT-Ebene (UNESCO)** | Wissenserwerb | Wissensvertiefung | Wissensgenerierung |
-| **Schülermaterial (Klasse 7)** | AB „Der mBot2 als technisches System“ | Aufgabenkarten A/B/C, Hilfekarten, Unplugged-Karte | Projektwochen-Paket Mo–Fr |
+| **Schülermaterial (Beispiel Klasse 7, anpassbar)** | AB „Der mBot2 als technisches System“ | Aufgabenkarten A/B/C, Hilfekarten, Unplugged-Karte | Projektwochen-Paket Mo–Fr |
 
 ## 4 Wie die Sitzungen aufeinander aufbauen
 
@@ -59,7 +59,7 @@ Die Verzahnung ist inhaltlich und organisatorisch abgesichert:
 | S1 → S2 | Aufgebaute, geprüfte mBot2 (bleiben aufgebaut!), Kenntnis von Connector und Token, Merksatz „Startblock = Endlosschleife“ | In S2 wird keine Zeit für Montage oder Verbindung verloren. |
 | Selbstlern 1 → S2 | Quiz-Ergebnis (Wissenscheck EVA/Bauteile), gelesenes NEPO-Programm | Die Selbsteinschätzung zu Beginn von S2 wird mit einer Lernpfad-Empfehlung verknüpft. |
 | S2 → S3 | Gemessene Schwellenwerte (Licht, Abstand), eigene Programme, Erfahrung mit Fehlersuche | Die Fachgruppen in S3 erproben auf gesicherter Grundlage und schätzen den Zeitbedarf realistisch. |
-| Selbstlern 2 → S3 | Wahl der Fachgruppe, Lehrplanbezug des eigenen Fachs, Lerngruppe (Referenz: Klasse 7) | Planungen werden vergleichbar; die in der Erprobung beobachtete Streuung der Klassenstufen wird vermieden. |
+| Selbstlern 2 → S3 | Wahl der Fachgruppe, Lehrplanbezug des eigenen Fachs, Wunsch-Jahrgangsstufe (Voreinstellung: Klasse 7) | Planungen werden vergleichbar; die in der Erprobung beobachtete Streuung der Klassenstufen wird vermieden. |
 | S3 → Praxis | Tagesplan, Schülermaterial, Übergabe-Matrix | Der Transfer in den eigenen Unterricht ist vorbereitet; der Kurzbericht schließt die Fortbildung ab. |
 
 ## 5 Didaktische Leitideen
@@ -81,10 +81,10 @@ Jede Sitzung enthält dieselben Bausteine:
 | Moderationsleitfaden | `S*_Moderationsleitfaden.md` | Verlaufsplan im Minutentakt, Sozialformen, Stolperstellen, Plan B, Diskussionsimpulse |
 | Arbeitsheft Teilnehmende | `S*_Arbeitsheft.md` / `.docx` | Exemplarisches Arbeitsheft für die Präsenzphase (zum Ausdrucken) |
 | Lösungen | `S*_Loesungen.md` / `.docx` | Musterlösungen, Erwartungshorizont, Testprotokoll für die Leitung |
-| Selbstlernmodul | `S*_Selbstlernmodul.md` | LiaScript-Kurs mit Vorbereitung, Wissenscheck (Quiz) und Reflexion |
-| Unterrichtsmaterial | `S*_Unterrichtsmaterial_Klasse7.md` / `.docx` | Material für die eigene Klasse, das in der Sitzung gemeinsam erprobt und diskutiert wird |
+| Selbstlernmodul | `S*_Selbstlernmodul.md` | LiaScript-Kurs mit Vorbereitung, Wissenscheck (Quiz) und Reflexion; als SCORM-Paket für Moodle in `moodle/` |
+| Unterrichtsmaterial | `S*_Unterrichtsmaterial.md` / `.docx` | Material für die eigene Klasse, das in der Sitzung gemeinsam erprobt und diskutiert wird |
 
-Ergänzend im Ordner `00_Kurskonzept`: Kompetenzmodell, Technik-Vorbereitung, Kursausschreibung, Qualitätssicherung und Quellen.
+Ergänzend im Ordner `00_Kurskonzept`: Kompetenzmodell, Technik-Vorbereitung, Kursausschreibung, Qualitätssicherung, Quellen, Anpassung an Jahrgangsstufen, Unterlagen zur Anerkennung (LISA) und die Anleitung für Moodle.
 
 ## 7 Abschluss und Nachweis
 
@@ -107,5 +107,5 @@ Kurzfassung; Details stehen in `05_Qualitaetssicherung.md`.
 - **Realistische Zeiten**: Zusammenbau im Tandem ca. 40–45 Min. (beobachtet); Plan B mit vormontierten Geräten.
 - **Musterlösungen und Testprotokoll** für alle Aufgaben (Wunsch aus dem Feedback).
 - **Mini-Teach mit Leitkarte** und festen Expert:innen-Stationen statt offener Erklärphasen.
-- **Einheitliche Referenz-Lerngruppe Klasse 7** in Sitzung 3, Trennung von Kernauftrag und Erweiterung.
+- **Gemeinsame Referenz-Jahrgangsstufe** je Durchführung von Sitzung 3 (Beispiel Klasse 7) statt beliebiger Klassenstufen; Varianten für Klasse 5/6, 9/10 und Sek II (`07_Anpassung_Jahrgangsstufen.md`); Trennung von Kernauftrag und Erweiterung.
 - **Bereinigte Kompetenzbezüge**: einheitliche Terminologie des UNESCO ICT-CFT (Version 3), ergänzt um DigCompEdu, KMK „Bildung in der digitalen Welt“ und die GI-Bildungsstandards Informatik.

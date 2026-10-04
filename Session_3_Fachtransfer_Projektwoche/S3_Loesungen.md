@@ -27,7 +27,7 @@
 **Unterschied:** Weg A ist **40 cm** kürzer und braucht nur eine Drehung.
 
 **Begründung des kürzesten Weges:** Auf Rasterlinien muss der Roboter mindestens 3 Felder in x-Richtung und 2 Felder in y-Richtung zurücklegen, also mindestens 5 Felder = **100 cm**. Jeder Umweg in Gegenrichtung muss wieder ausgeglichen werden und verlängert den Weg.
-**Weitere kürzeste Wege:** Es gibt **10** (Anzahl der Anordnungen von 3 × „rechts“ und 2 × „hoch“: (5 über 2) = 10). Für Klasse 7 genügt systematisches Aufzählen, z. B. als Baumdiagramm.
+**Weitere kürzeste Wege:** Es gibt **10** (Anzahl der Anordnungen von 3 × „rechts“ und 2 × „hoch“: (5 über 2) = 10). In Klasse 7 genügt systematisches Aufzählen, z. B. als Baumdiagramm; ab Klasse 9/10 kann die Anzahl kombinatorisch begründet werden.
 
 **Programm Weg A:**
 
@@ -87,7 +87,7 @@ Start
 - **Ethik:** Die Ausweichregel wurde von Menschen festgelegt; die Maschine „entscheidet“ nicht im moralischen Sinn. Verantwortung liegt bei denen, die Regeln festlegen, testen und einsetzen. Grenzen fester Regeln zeigen sich, wenn Situationen eintreten, die beim Programmieren nicht bedacht wurden.
 - **Biologie:** Modell und Original unterscheiden sich (ein Sensor, keine Lernfähigkeit, keine Motivation); das Modell hilft dennoch, Reiz-Reaktions-Zusammenhänge zu untersuchen.
 
-## 6 Beispiel-Tagesplan: Dienstag – Mathematik (Klasse 7)
+## 6 Beispiel-Tagesplan: Dienstag – Mathematik (Beispiel Klasse 7)
 
 | Planungselement | Eintrag |
 |---|---|

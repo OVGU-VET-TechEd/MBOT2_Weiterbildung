@@ -1,4 +1,4 @@
-# Unterrichtsmaterial Klasse 7 – Projektwoche mit dem mBot2
+# Unterrichtsmaterial – Projektwoche mit dem mBot2
 
 **Zur Sitzung 3 der Fortbildungsreihe „Der mBot2 im Fachunterricht“**
 
@@ -8,9 +8,19 @@ Das Paket enthält für jeden Projekttag ein Schülerblatt sowie das Projekttage
 
 ## Teil A – Hinweise für die Lehrkräfte
 
+**Ausgearbeitet für Klasse 7.** So passen Sie das Paket an andere Jahrgangsstufen an (ausführlich in `00_Kurskonzept/07_Anpassung_Jahrgangsstufen.md`):
+
+| Tag | Klasse 5/6 | Klasse 9/10 | Sekundarstufe II |
+|---|---|---|---|
+| Technik | Funktionsprüfung mit Checkliste, ein Fehler mit Hilfekarten | mehrere Fehler, Fehlerbaum | Fehleranalyse mit Messwerten |
+| Mathematik | Wege auf dem Raster zählen und fahren | Wege mit Diagonalen (Pythagoras) | kürzeste Wege als Graphproblem |
+| Physik | hell/dunkel und nah/fern untersuchen | Geschwindigkeit aus der Steigung, Messunsicherheit | Kennlinien, Fehlerrechnung |
+| Informatik | Programm mit einer Bedingung | verschachtelte Bedingungen, Ablaufdiagramm | Regelalgorithmus, Python-Code, Testfälle |
+| Präsentation | Vorführung mit Erklärkarte | Science Fair mit Poster | Fachvortrag mit Diskussion |
+
 | Merkmal | Hinweis |
 |---|---|
-| Klassenstufe | 7 |
+| Klassenstufe | Beispiel: 7; Varianten siehe oben |
 | Teams | 3–4 Schülerinnen und Schüler, Rollen **Bedienung – Beobachtung – Dokumentation**, täglicher Wechsel |
 | Verbindende Strukturen | Tages-Check-in (10 Min.): Was haben wir gestern geschafft? Was übergibt uns der Vortag? · Projekttagebuch (10 Min. am Tagesende) · Expert:innen-System: Wer fertig ist, hilft durch Fragen, nicht durch Übernehmen |
 | Kompetenzen | S1–S7 aus dem Kompetenzmodell; Schwerpunkt je Tag siehe Wochenplan |

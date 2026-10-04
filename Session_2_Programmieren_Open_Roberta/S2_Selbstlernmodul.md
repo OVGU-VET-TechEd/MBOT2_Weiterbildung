@@ -6,6 +6,13 @@ language: de
 narrator: Deutsch Female
 comment:  Selbstlernmodul zu Sitzung 2 der Fortbildungsreihe „Der mBot2 im Fachunterricht“:
           Wissenscheck (Schleife, Bedingung, Sensoren, Debugging) und Vorbereitung auf Sitzung 3.
+logo:     https://raw.githubusercontent.com/OVGU-VET-TechEd/mBot2_Fortbildung_Magdeburg/main/assets/ovgu_fhw_logo.png
+
+@style
+/* Corporate Design der OVGU: Hausfarbe Dunkelrot, Fakultätsfarbe FHW Orange */
+.lia-content h1, .lia-content h2 { color: #7a003f; }
+.lia-content blockquote { border-left: 4px solid #ef7d00; background: #fdf0e3; }
+@end
 -->
 
 # Selbstlernmodul 2 – Programmieren mit Open Roberta
@@ -155,7 +162,7 @@ Um wie viel Grad muss sich der mBot2 an jeder Ecke drehen, um ein regelmäßiges
 
 ## B1 – Was Sie in Sitzung 3 erwartet
 
-In Sitzung 3 planen Sie in **Fachgruppen** eine mBot2-Projektwoche für eine **Klasse 7**. Jede Gruppe erprobt zuerst selbst eine Aufgabe am mBot2 (30 Min.) und entwickelt daraus einen Tagesplan (20 Min.). Die Tage bauen aufeinander auf:
+In Sitzung 3 planen Sie in **Fachgruppen** eine mBot2-Projektwoche für eine **gemeinsame Jahrgangsstufe** (Voreinstellung und ausgearbeitetes Beispiel: **Klasse 7**). Jede Gruppe erprobt zuerst selbst eine Aufgabe am mBot2 (30 Min.) und entwickelt daraus einen Tagesplan (20 Min.). Die Tage bauen aufeinander auf:
 
 | Tag | Fach | Tagesziel der Schülerinnen und Schüler |
 |---|---|---|
@@ -165,7 +172,7 @@ In Sitzung 3 planen Sie in **Fachgruppen** eine mBot2-Projektwoche für eine **K
 | Donnerstag | Informatik | eigenes Steuerprogramm mit Schleife und Bedingung entwickelt |
 | Freitag | Präsentation | Ergebnisse vorgestellt (schulindividuell) |
 
-**Warum Klasse 7 für alle?** In der Erprobung planten die Gruppen für unterschiedliche Klassenstufen. Die Planungen waren dadurch kaum vergleichbar, und die Übergaben zwischen den Tagen passten nicht. Eine gemeinsame Referenz-Lerngruppe löst das. Die Übertragung auf Ihre eigene Lerngruppe folgt im Praxisauftrag.
+**Warum eine gemeinsame Jahrgangsstufe?** In der Erprobung planten die Gruppen für unterschiedliche Klassenstufen. Die Planungen waren dadurch kaum vergleichbar, und die Übergaben zwischen den Tagen passten nicht. Deshalb einigt sich die Gruppe zu Beginn von Sitzung 3 auf eine Jahrgangsstufe. Das Material ist für Klasse 7 ausgearbeitet und enthält Varianten für Klasse 5/6, 9/10 und die Sekundarstufe II. Die Übertragung auf Ihre eigene Lerngruppe folgt im Praxisauftrag.
 
 ## B2 – Ihre Wahl
 
@@ -177,7 +184,14 @@ In welcher Fachgruppe möchten Sie in Sitzung 3 arbeiten?
 [(inf)] Donnerstag – Informatik: Steuerprogramm mit Schleife und Bedingung
 [(off)] Offene Gruppe: eigenes Fach (z. B. Deutsch, Ethik, Biologie, Geografie)
 
-Suchen Sie im **Fachlehrplan Ihres Fachs für Sachsen-Anhalt** (Klassenstufe 7 bzw. Doppeljahrgang 7/8) eine Kompetenz oder ein Thema, an das der mBot2 anknüpfen kann. Notieren Sie die Fundstelle und warum sie passt.
+Für welche Jahrgangsstufe möchten Sie planen?
+
+[(56)] Klasse 5/6
+[(78)] Klasse 7/8
+[(910)] Klasse 9/10
+[(sek2)] Sekundarstufe II
+
+Suchen Sie im **Fachlehrplan Ihres Fachs für Sachsen-Anhalt** (für Ihre Wunsch-Jahrgangsstufe) eine Kompetenz oder ein Thema, an das der mBot2 anknüpfen kann. Notieren Sie die Fundstelle und warum sie passt.
 
 [[___ ___ ___]]
 

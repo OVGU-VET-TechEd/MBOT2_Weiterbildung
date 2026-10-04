@@ -14,3 +14,9 @@ vorgenommen wurden.
 Vollständiger Lizenztext: https://creativecommons.org/licenses/by/4.0/legalcode.de
 
 Die Skripte im Ordner scripts/ dürfen unter denselben Bedingungen genutzt werden.
+
+Ausgenommen sind das Logo der Otto-von-Guericke-Universität Magdeburg (assets/ovgu_*) und
+seine Verwendung in Folien, Dokumenten und Lernpaketen. Es unterliegt den Regeln des
+Corporate Designs der OVGU (https://www.cd.ovgu.de) und darf bei einer Weiternutzung
+außerhalb der OVGU nicht verwendet werden. Für eigene Fassungen das Logo entfernen
+(scripts/slidekit.js, scripts/md2docx.js, Kopfzeilen der Selbstlernmodule).

@@ -1,4 +1,4 @@
-# Unterrichtsmaterial Klasse 7 – Der mBot2 als technisches System
+# Unterrichtsmaterial – Der mBot2 als technisches System
 
 **Zur Sitzung 1 der Fortbildungsreihe „Der mBot2 im Fachunterricht“**
 
@@ -8,9 +8,18 @@ Dieses Material ist für Ihre eigene Klasse gedacht. In der Fortbildung haben Si
 
 ## Teil A – Hinweise für die Lehrkraft
 
+**Ausgearbeitet für Klasse 7.** So passen Sie das Material an andere Jahrgangsstufen an (ausführlich in `00_Kurskonzept/07_Anpassung_Jahrgangsstufen.md`):
+
+| Jahrgang | Anpassung |
+|---|---|
+| Klasse 5/6 | Bildkarten „sehen – denken – handeln“ statt Fachbegriffe; mBot2 vormontiert oder nur Bauschritte 1–4; erstes Programm: Licht und Klang |
+| Klasse 7/8 | wie in diesem Material |
+| Klasse 9/10 | EVA auf Alltagssysteme übertragen und Grenzen des Modells benennen; Montage mit eingebautem Montagefehler |
+| Sekundarstufe II | Blockschaltbild mit Signalfluss; Encoder als Regelkreis; Montage nur, wenn Technik Lernziel ist |
+
 | Merkmal | Hinweis |
 |---|---|
-| Klassenstufe | 7 (Sekundarschule, Gemeinschaftsschule, Gymnasium); anpassbar für 6–8 |
+| Klassenstufe | Beispiel: 7 (Sekundarschule, Gemeinschaftsschule, Gymnasium); Varianten für 5/6, 9/10 und Sek II siehe oben |
 | Fächer | Technik, Informatik, Physik; als Einstieg in eine Projektwoche |
 | Zeit | Doppelstunde (90 Min.): ca. 15 Min. EVA und Bauteile, 60 Min. Montage, 15 Min. Funktionsprüfung und Sicherung |
 | Sozialform | Dreierteams mit Rollen (Monteur:in, Navigator:in, Prüfer:in), Rollenwechsel nach Schritt 3 und 6 |

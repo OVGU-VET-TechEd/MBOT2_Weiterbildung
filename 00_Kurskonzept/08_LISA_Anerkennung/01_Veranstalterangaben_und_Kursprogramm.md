@@ -92,7 +92,7 @@ Pädagogischer Doppeldecker (die Lehrkräfte erleben die Methoden, die sie spät
 
 ## 6 Materialien
 
-Präsentationen, Moderationsleitfäden, Arbeitshefte, Lösungshefte, Selbstlernmodule und Unterrichtsmaterial für die Sekundarstufe stehen unter der Lizenz CC BY 4.0 frei zur Verfügung: https://github.com/OVGU-VET-TechEd/mBot2_Fortbildung_Magdeburg
+Präsentationen, Moderationsleitfäden, Arbeitshefte, Lösungshefte, Selbstlernmodule und Unterrichtsmaterial für die Sekundarstufe stehen unter der Lizenz CC BY 4.0 frei zur Verfügung: https://ovgu-vet-teched.github.io/MBOT2_Weiterbildung/ (Quellen: https://github.com/OVGU-VET-TechEd/MBOT2_Weiterbildung)
 
 ## 7 Qualitätssicherung und Evaluation
 

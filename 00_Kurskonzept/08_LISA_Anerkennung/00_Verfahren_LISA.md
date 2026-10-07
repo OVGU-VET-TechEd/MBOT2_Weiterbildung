@@ -28,6 +28,7 @@
 | `03_Ausfuellhilfe_Antrag.md` / `.docx` | Hinweise zu jedem Feld des LISA-Formulars | Lehrkräfte |
 | `04_Teilnahmebescheinigung.md` / `.docx` | Vorlage für die Bescheinigung der OVGU | Fortbildungsleitung |
 | `05_Anfrage_LISA.md` | E-Mail-Entwurf zur Klärung mit dem LISA, Fachbereich 4 | Kursverantwortung |
+| `06_Projektinformation_LISA.md` / `.docx` | Informationsschreiben an das LISA: Schulformen, Fächer, Termine, Organisationsform, Institution, Inhalte, Ansprechpartner | Kursverantwortung, Versand an das LISA |
 
 Das LISA-Formular selbst wird nicht mitgeliefert, weil es regelmäßig aktualisiert wird. Aktuelle Fassung: [Antrag_Anerkennung_Ersatzangebot.pdf](https://www.bildung-lsa.de/files/f691d7657f77c464e420259c81a5e20f/Antrag_Anerkennung_Ersatzangebot.pdf) (Bildungsserver Sachsen-Anhalt).
 

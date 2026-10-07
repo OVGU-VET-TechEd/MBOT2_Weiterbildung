@@ -24,7 +24,7 @@ for dir in $S1 $S2 $S3; do
 done
 
 # Unterlagen für die Anerkennung durch das LISA (ohne Verfahrensbeschreibung und E-Mail-Entwurf)
-for md in 00_Kurskonzept/08_LISA_Anerkennung/0[1-4]_*.md; do
+for md in 00_Kurskonzept/08_LISA_Anerkennung/0[1-46]_*.md; do
   node scripts/md2docx.js "$md" "${md%.md}.docx"
 done
 

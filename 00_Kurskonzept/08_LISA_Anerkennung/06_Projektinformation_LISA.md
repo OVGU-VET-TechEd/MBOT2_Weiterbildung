@@ -41,7 +41,7 @@ Das Unterrichtsmaterial ist am Beispiel Klasse 7 ausgearbeitet und enthält Vari
 
 | Baustein | Umfang |
 |---|---|
-| 3 Präsenzsitzungen | je 90 Minuten (zusammen 6 Unterrichtsstunden à 45 Minuten), im Abstand von 2 bis 3 Wochen |
+| 3 Live-Sitzungen (online) | je 90 Minuten (zusammen 6 Unterrichtsstunden à 45 Minuten), im Abstand von 2 bis 3 Wochen |
 | 3 Selbstlernmodule | vor bzw. zwischen den Sitzungen, zusammen ca. 1,5 Zeitstunden |
 | Praxisauftrag | nach Sitzung 3, ca. 2 Zeitstunden zuzüglich Erprobung im eigenen Unterricht |
 
@@ -49,13 +49,13 @@ Termine: Sitzung 1: [Datum, Uhrzeit] · Sitzung 2: [Datum, Uhrzeit] · Sitzung 3
 
 ## 5 Organisationsform
 
-Die Reihe ist als **Blended Learning** angelegt:
+Die Reihe findet **online** statt und verbindet Live-Sitzungen mit Selbstlernphasen und einer Praxisphase:
 
-- **Vor Ort (Präsenz):** Die drei Sitzungen finden an der Otto-von-Guericke-Universität Magdeburg statt ([Raum, Anschrift]). Die Teilnehmenden arbeiten praktisch am Roboter. mBot2-Roboter und Laptops werden gestellt.
+- **Online (synchron):** Die drei Sitzungen finden live als Videokonferenz statt. Die Teilnehmenden arbeiten dabei praktisch am mBot2 und mit Open Roberta Lab im Browser.
 - **Digital (asynchron):** Die Selbstlernmodule mit Wissenscheck und Rückmeldung laufen im Moodle-Kurs des Bildungsportals Magdeburg oder direkt im Browser (LiaScript).
 - **In der eigenen Schule:** Im Praxisauftrag erproben die Teilnehmenden den in Sitzung 3 geplanten Projekttag mit einer eigenen Lerngruppe und reichen eine kurze Reflexion ein.
 
-**Abschluss:** Teilnahmebescheinigung der OVGU bei Teilnahme an allen drei Sitzungen, Bearbeitung der Selbstlernmodule und Einreichen des Praxisauftrags. **Kosten:** [kostenfrei / Betrag]
+**Abschluss:** Teilnahmebescheinigung der OVGU bei Teilnahme an allen drei Sitzungen, Bearbeitung der Selbstlernmodule und Einreichen des Praxisauftrags. **Kosten:** kostenfrei
 
 ## 6 Inhalte
 
@@ -87,7 +87,7 @@ Die Reihe ist als **Blended Learning** angelegt:
 | Name | Dr. Hannes Tegelbeckers |
 | Funktion | Kursverantwortung |
 | E-Mail | hannes.tegelbeckers@ovgu.de · itvet@ovgu.de |
-| Telefon | [Telefon] |
+| Telefon | 0391 67-56373 |
 | Anschrift | Otto-von-Guericke-Universität Magdeburg, Fakultät für Humanwissenschaften, ITVET, Universitätsplatz 2, 39106 Magdeburg |
 
 Ein ausführliches Kursprogramm mit Zeitplan und Methoden je Sitzung liegt bei. Für Rückfragen stehe ich gern zur Verfügung.

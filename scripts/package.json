@@ -1,0 +1,9 @@
+{
+  "name": "mbot2-fortbildung-build",
+  "private": true,
+  "description": "Erzeugt Folien (.pptx) und Arbeitshefte (.docx) der mBot2-Fortbildungsreihe",
+  "dependencies": {
+    "docx": "^9.8.1",
+    "pptxgenjs": "^4.0.1"
+  }
+}

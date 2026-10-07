@@ -1,21 +1,22 @@
-MIT License
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Copyright (c) 2026 H.Tegelbeckers
+Copyright (c) 2026 ITVET – Lehrstuhl für Ingenieurpädagogik und Technische Berufsbildung,
+Otto-von-Guericke-Universität Magdeburg
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Die Inhalte dieses Repositories (Texte, Arbeitshefte, Präsentationen, Unterrichtsmaterialien)
+stehen unter der Lizenz Creative Commons Namensnennung 4.0 International.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Sie dürfen das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten
+sowie remixen, verändern und darauf aufbauen – auch kommerziell –, sofern Sie angemessene
+Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen
+vorgenommen wurden.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Vollständiger Lizenztext: https://creativecommons.org/licenses/by/4.0/legalcode.de
+
+Die Skripte im Ordner scripts/ dürfen unter denselben Bedingungen genutzt werden.
+
+Ausgenommen sind das Logo der Otto-von-Guericke-Universität Magdeburg (assets/ovgu_*) und
+seine Verwendung in Folien, Dokumenten und Lernpaketen. Es unterliegt den Regeln des
+Corporate Designs der OVGU (https://www.cd.ovgu.de) und darf bei einer Weiternutzung
+außerhalb der OVGU nicht verwendet werden. Für eigene Fassungen das Logo entfernen
+(scripts/slidekit.js, scripts/md2docx.js, Kopfzeilen der Selbstlernmodule).

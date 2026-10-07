@@ -21,6 +21,7 @@ Wie die Sitzungen aufeinander aufbauen, steht im **[Kurskonzept](00_Kurskonzept/
 | Datei | Inhalt |
 |---|---|
 | `S*_Folien.pptx` | Präsentation mit Moderationsnotizen |
+| `S*_Folien.md` | dieselbe Präsentation als LiaScript-Kurs (erzeugt mit `scripts/slides2lia.js`) – alle Links gesammelt in [`index.html`](index.html) |
 | `S*_Moderationsleitfaden.md` | Verlaufsplan im Minutentakt, Stolperstellen, Plan B, Diskussionsimpulse |
 | `S*_Arbeitsheft.md` / `.docx` | Arbeitsheft der Teilnehmenden (druckfertig) |
 | `S*_Loesungen.md` / `.docx` | Musterlösungen, Musterprogramme, Erwartungshorizont, Testprotokoll |
@@ -33,9 +34,9 @@ Wie die Sitzungen aufeinander aufbauen, steht im **[Kurskonzept](00_Kurskonzept/
 
 **Direkt im Browser (LiaScript):**
 
-- [Selbstlernmodul 1 – Den mBot2 kennenlernen](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/mBot2_Fortbildung_Magdeburg/main/Session_1_Aufbau_und_EVA/S1_Selbstlernmodul.md)
-- [Selbstlernmodul 2 – Programmieren mit Open Roberta](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/mBot2_Fortbildung_Magdeburg/main/Session_2_Programmieren_Open_Roberta/S2_Selbstlernmodul.md)
-- [Selbstlernmodul 3 – Vom Roboter zum Unterricht](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/mBot2_Fortbildung_Magdeburg/main/Session_3_Fachtransfer_Projektwoche/S3_Selbstlernmodul.md)
+- [Selbstlernmodul 1 – Den mBot2 kennenlernen](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/MBOT2_Weiterbildung/main/Session_1_Aufbau_und_EVA/S1_Selbstlernmodul.md)
+- [Selbstlernmodul 2 – Programmieren mit Open Roberta](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/MBOT2_Weiterbildung/main/Session_2_Programmieren_Open_Roberta/S2_Selbstlernmodul.md)
+- [Selbstlernmodul 3 – Vom Roboter zum Unterricht](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/MBOT2_Weiterbildung/main/Session_3_Fachtransfer_Projektwoche/S3_Selbstlernmodul.md)
 
 ## Kursübergreifende Dokumente
 

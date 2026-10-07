@@ -6,7 +6,7 @@ language: de
 narrator: Deutsch Female
 comment:  Selbstlernmodul zu Sitzung 3 der Fortbildungsreihe „Der mBot2 im Fachunterricht“:
           Wissenscheck Unterrichtsplanung, Praxisauftrag, Evaluation und Weiterlernen.
-logo:     https://raw.githubusercontent.com/OVGU-VET-TechEd/mBot2_Fortbildung_Magdeburg/main/assets/ovgu_fhw_logo.png
+logo:     https://raw.githubusercontent.com/OVGU-VET-TechEd/MBOT2_Weiterbildung/main/assets/ovgu_fhw_logo.png
 
 @style
 /* Corporate Design der OVGU: Hausfarbe Dunkelrot, Fakultätsfarbe FHW Orange */

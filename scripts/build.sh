@@ -12,6 +12,11 @@ node scripts/slides_s1.js "$S1/S1_Folien.pptx"
 node scripts/slides_s2.js "$S2/S2_Folien.pptx"
 node scripts/slides_s3.js "$S3/S3_Folien.pptx"
 
+# Dieselben Folien als LiaScript-Präsentation (für die Ansicht im Browser)
+node scripts/slides2lia.js scripts/slides_s1.js "$S1/S1_Folien.md"
+node scripts/slides2lia.js scripts/slides_s2.js "$S2/S2_Folien.md"
+node scripts/slides2lia.js scripts/slides_s3.js "$S3/S3_Folien.md"
+
 for dir in $S1 $S2 $S3; do
   for md in "$dir"/*_Arbeitsheft.md "$dir"/*_Loesungen.md "$dir"/*_Unterrichtsmaterial.md; do
     node scripts/md2docx.js "$md" "${md%.md}.docx"

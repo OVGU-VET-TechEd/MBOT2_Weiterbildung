@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mBot2 im Fachunterricht</title>
+<meta name="description" content="Fortbildungsreihe „Der mBot2 im Fachunterricht“ – alle Präsentationen und Materialien als LiaScript-Kurse im Browser.">
+<style>
+  :root {
+    --ovgu: #7a003f; --fhw: #ef7d00; --tint: #fdf0e3;
+    --bg: #ffffff; --surface: #f6f6f6; --ink: #1d1d1b; --muted: #5f5e5e; --line: #dcdcdc;
+    --btn-ink: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ovgu: #e2709f; --fhw: #f39a3a; --tint: #3a2a1c;
+      --bg: #161515; --surface: #222020; --ink: #ecebe9; --muted: #aaa8a5; --line: #3a3837;
+      --btn-ink: #161515;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ovgu: #e2709f; --fhw: #f39a3a; --tint: #3a2a1c;
+    --bg: #161515; --surface: #222020; --ink: #ecebe9; --muted: #aaa8a5; --line: #3a3837;
+    --btn-ink: #161515;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.5 "Lucida Sans", "Lucida Grande", "Segoe UI", system-ui, sans-serif;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+  header { border-bottom: 4px solid var(--fhw); padding: 40px 0 28px; }
+  .kicker { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 0 0 8px; }
+  h1 { color: var(--ovgu); font-size: clamp(28px, 5vw, 40px); line-height: 1.15; margin: 0 0 12px; }
+  header p { max-width: 70ch; margin: 0 0 8px; }
+  .hint { background: var(--tint); border-left: 4px solid var(--fhw); padding: 12px 16px; border-radius: 6px; margin: 24px 0 0; max-width: 80ch; font-size: 15px; }
+  main { padding: 32px 0 48px; }
+  h2 { color: var(--ovgu); font-size: 22px; margin: 40px 0 16px; }
+  .sessions { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 20px; }
+  .session { background: var(--surface); border-radius: 12px; padding: 22px; display: flex; flex-direction: column; }
+  .num { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--fhw); color: #1d1d1b; font-weight: 700; font-size: 20px; }
+  .session h3 { margin: 12px 0 4px; font-size: 19px; }
+  .session .sub { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+  .primary {
+    display: block; text-align: center; background: var(--ovgu); color: var(--btn-ink); text-decoration: none;
+    font-weight: 700; padding: 12px 14px; border-radius: 8px; margin-bottom: 14px;
+  }
+  .primary:hover, .primary:focus-visible { filter: brightness(1.12); }
+  ul.links { list-style: none; padding: 0; margin: 0; }
+  ul.links li { border-top: 1px solid var(--line); padding: 9px 0; display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+  ul.links a { color: var(--ink); text-decoration: none; font-weight: 600; }
+  ul.links a:hover, ul.links a:focus-visible { color: var(--ovgu); text-decoration: underline; }
+  .desc { color: var(--muted); font-size: 13.5px; display: block; font-weight: 400; }
+  .dl { font-size: 13px; white-space: nowrap; }
+  .dl a { font-weight: 400; color: var(--muted); }
+  .docs { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 0 32px; }
+  footer { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--muted); font-size: 13.5px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="kicker">ITVET · Otto-von-Guericke-Universität Magdeburg</p>
+    <h1>Der mBot2 im Fachunterricht</h1>
+    <p>Fortbildungsreihe für Lehrkräfte der Sekundarstufe I und II: drei Workshops à 90 Minuten. Die Teilnehmenden bauen den mBot2 auf, programmieren ihn mit Open Roberta Lab und übertragen das Gelernte in einen erprobten Unterrichtsplan für ihr Fach.</p>
+    <p class="hint"><strong>Hinweis zur Ansicht:</strong> Alle Materialien öffnen sich als <a href="https://liascript.github.io">LiaScript</a>-Kurs direkt im Browser, ohne Anmeldung und ohne Installation. Die Präsentationen starten im Präsentationsmodus (Blättern mit den Pfeiltasten). Die Moderationsnotizen sind unter jeder Folie aufklappbar. Über das Brillensymbol oben rechts wechseln Sie in die Lehrbuchansicht. Die Original-Dateien (PowerPoint, Word, SCORM) stehen jeweils als Download bereit.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>Die drei Sitzungen</h2>
+  <div class="sessions" id="sessions"></div>
+
+  <h2>Kurskonzept</h2>
+  <ul class="links docs" id="concept"></ul>
+
+  <h2>Unterlagen für die Anerkennung durch das LISA</h2>
+  <ul class="links docs" id="lisa"></ul>
+</main>
+
+<footer>
+  <div class="wrap">
+    Quellen und Dateien: <a href="https://github.com/OVGU-VET-TechEd/MBOT2_Weiterbildung">github.com/OVGU-VET-TechEd/MBOT2_Weiterbildung</a> ·
+    Lizenz <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> (ausgenommen das Logo der OVGU) ·
+    ITVET – Lehrstuhl für Ingenieurpädagogik und Technische Berufsbildung
+  </div>
+</footer>
+
+<script>
+  const RAW = "https://raw.githubusercontent.com/OVGU-VET-TechEd/MBOT2_Weiterbildung/main/";
+  const FILE = "https://github.com/OVGU-VET-TechEd/MBOT2_Weiterbildung/raw/main/";
+  const lia = (p) => "https://liascript.github.io/course/?" + RAW + p;
+
+  const sessions = [
+    { n: 1, dir: "Session_1_Aufbau_und_EVA", title: "Den mBot2 kennenlernen", sub: "Aufbau, EVA-Prinzip, erstes Programm · Wissenserwerb" },
+    { n: 2, dir: "Session_2_Programmieren_Open_Roberta", title: "Programmieren mit Open Roberta", sub: "Sequenz, Schleife, Bedingung, Sensoren · Wissensvertiefung" },
+    { n: 3, dir: "Session_3_Fachtransfer_Projektwoche", title: "Vom Roboter zum Unterricht", sub: "Erprobung und Planung einer Projektwoche · Wissensgenerierung" },
+  ];
+  const material = [
+    { f: "Selbstlernmodul", label: "Selbstlernmodul", desc: "Vorbereitung, Wissenscheck mit Rückmeldung, Reflexion", dl: [["SCORM", (s) => "moodle/S" + s.n + "_Selbstlernmodul_SCORM.zip"]] },
+    { f: "Moderationsleitfaden", label: "Moderationsleitfaden", desc: "Verlaufsplan im Minutentakt, Stolperstellen, Plan B" },
+    { f: "Arbeitsheft", label: "Arbeitsheft", desc: "Aufgaben für die Teilnehmenden", dl: [["DOCX"]] },
+    { f: "Loesungen", label: "Lösungen", desc: "Musterlösungen, Musterprogramme, Erwartungshorizont", dl: [["DOCX"]] },
+    { f: "Unterrichtsmaterial", label: "Unterrichtsmaterial", desc: "Material für die eigene Klasse (Kl. 5–13)", dl: [["DOCX"]] },
+  ];
+
+  const el = (tag, attrs = {}, ...kids) => {
+    const e = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+    e.append(...kids);
+    return e;
+  };
+  const item = (label, desc, href, downloads = []) => {
+    const a = el("a", { href, target: "_blank", rel: "noopener" }, label, el("span", { class: "desc" }, desc));
+    const dl = el("span", { class: "dl" });
+    downloads.forEach(([name, href], i) => { if (i) dl.append(" · "); dl.append(el("a", { href, download: "" }, name)); });
+    return el("li", {}, el("span", {}, a), dl);
+  };
+
+  const box = document.getElementById("sessions");
+  for (const s of sessions) {
+    const base = s.dir + "/S" + s.n + "_";
+    const ul = el("ul", { class: "links" });
+    for (const m of material) {
+      const dls = (m.dl || []).map(([name, path]) => [name, FILE + (path ? path(s) : base + m.f + ".docx")]);
+      ul.append(item(m.label, m.desc, lia(base + m.f + ".md"), dls));
+    }
+    box.append(el("article", { class: "session" },
+      el("span", { class: "num" }, String(s.n)),
+      el("h3", {}, "Sitzung " + s.n + ": " + s.title),
+      el("p", { class: "sub" }, s.sub),
+      el("a", { class: "primary", href: lia(base + "Folien.md"), target: "_blank", rel: "noopener" }, "▶ Präsentation starten"),
+      el("p", { class: "dl", style: "margin:-6px 0 12px;text-align:center" }, "Original: ", el("a", { href: FILE + base + "Folien.pptx", download: "" }, "PowerPoint (PPTX) mit Moderationsnotizen")),
+      ul));
+  }
+
+  const concept = [
+    ["01_Kurskonzept_und_Zusammenfassung", "Kurskonzept und Zusammenfassung", "Ziele, Zielgruppe, Aufbau, didaktische Leitideen"],
+    ["02_Kompetenzmodell", "Kompetenzmodell", "Kompetenzen K1–K5, Lernziele je Sitzung"],
+    ["03_Technik_Vorbereitung", "Technik-Vorbereitung", "Open Roberta Connector, Checkliste, Plan B"],
+    ["04_Kursausschreibung", "Kursausschreibung", "Vorlage für Bildungsportal und Anerkennung"],
+    ["05_Qualitaetssicherung", "Qualitätssicherung", "Prüfkriterien, Befunde, offene Punkte"],
+    ["06_Quellen", "Quellen", "Literatur, Kompetenzrahmen, technische Quellen"],
+    ["07_Anpassung_Jahrgangsstufen", "Anpassung an Jahrgangsstufen", "Varianten für Kl. 5/6, 7/8, 9/10 und Sek II"],
+    ["09_Moodle_Einrichtung", "Moodle-Kurs einrichten", "SCORM-Pakete, Kursstruktur, Einstellungen"],
+  ];
+  const ce = document.getElementById("concept");
+  for (const [f, label, desc] of concept) ce.append(item(label, desc, lia("00_Kurskonzept/" + f + ".md")));
+
+  const lisa = [
+    ["00_Verfahren_LISA", "Verfahren", "Ablauf der Anerkennung", false],
+    ["01_Veranstalterangaben_und_Kursprogramm", "Veranstalterangaben und Kursprogramm", "Angaben für den Antrag", true],
+    ["02_Einladung", "Einladung", "Ausschreibungstext für Teilnehmende", true],
+    ["03_Ausfuellhilfe_Antrag", "Ausfüllhilfe Antrag", "Feldweise Hinweise zum Antrag", true],
+    ["04_Teilnahmebescheinigung", "Teilnahmebescheinigung", "Vorlage", true],
+  ];
+  const le = document.getElementById("lisa");
+  const LP = "00_Kurskonzept/08_LISA_Anerkennung/";
+  for (const [f, label, desc, docx] of lisa)
+    le.append(item(label, desc, lia(LP + f + ".md"), docx ? [["DOCX", FILE + LP + f + ".docx"]] : []));
+</script>
+</body>
+</html>

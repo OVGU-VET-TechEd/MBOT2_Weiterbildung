@@ -41,7 +41,7 @@ Das Unterrichtsmaterial ist am Beispiel Klasse 7 ausgearbeitet und enthält Vari
 
 | Baustein | Umfang |
 |---|---|
-| 3 Live-Sitzungen (online) | je 90 Minuten (zusammen 6 Unterrichtsstunden à 45 Minuten), im Abstand von 2 bis 3 Wochen |
+| 3 Sitzungen (hybrid: vor Ort oder online) | je 90 Minuten (zusammen 6 Unterrichtsstunden à 45 Minuten), im Abstand von 2 bis 3 Wochen |
 | 3 Selbstlernmodule | vor bzw. zwischen den Sitzungen, zusammen ca. 1,5 Zeitstunden |
 | Praxisauftrag | nach Sitzung 3, ca. 2 Zeitstunden zuzüglich Erprobung im eigenen Unterricht |
 
@@ -49,9 +49,11 @@ Termine: Sitzung 1: [Datum, Uhrzeit] · Sitzung 2: [Datum, Uhrzeit] · Sitzung 3
 
 ## 5 Organisationsform
 
-Die Reihe findet **online** statt und verbindet Live-Sitzungen mit Selbstlernphasen und einer Praxisphase:
+Die Reihe ist **hybrid** angelegt: Die Sitzungen finden vor Ort statt, eine Teilnahme online ist möglich. Dazu kommen Selbstlernphasen und eine Praxisphase.
 
-- **Online (synchron):** Die drei Sitzungen finden live als Videokonferenz statt. Die Teilnehmenden arbeiten dabei praktisch am mBot2 und mit Open Roberta Lab im Browser.
+- **Vor Ort:** Otto-von-Guericke-Universität Magdeburg, Gebäude G40-B, Raum 024, Zschokkestraße 32, 39104 Magdeburg. Die Teilnehmenden arbeiten praktisch am mBot2 und programmieren ihn mit Open Roberta Lab im Browser.
+- **Online:** Die Sitzungen werden zeitgleich per Videokonferenz übertragen.
+- **Eigene Geräte:** Die Teilnehmenden können ihren eigenen Laptop oder Tablets ihrer Schule mitbringen und die Verbindung zum mBot2 damit direkt ausprobieren. So zeigt sich schon in der Fortbildung, ob die Technik der eigenen Schule funktioniert.
 - **Digital (asynchron):** Die Selbstlernmodule mit Wissenscheck und Rückmeldung laufen im Moodle-Kurs des Bildungsportals Magdeburg oder direkt im Browser (LiaScript).
 - **In der eigenen Schule:** Im Praxisauftrag erproben die Teilnehmenden den in Sitzung 3 geplanten Projekttag mit einer eigenen Lerngruppe und reichen eine kurze Reflexion ein.
 
